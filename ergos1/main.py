@@ -9,16 +9,16 @@ holdtap = HoldTap()
 # holdtap.tap_time = 300
 keyboard.modules.append(holdtap)
 # Left side Home row
-HTA = KC.HT(KC.A, KC.LGUI)
-HTS = KC.HT(KC.S, KC.LGUI)
-HTD = KC.HT(KC.D, KC.LGUI)
+HTA = KC.HT(KC.A, KC.LALT)
+HTS = KC.HT(KC.S, KC.LSHIFT)
+HTD = KC.HT(KC.D, KC.LCTRL)
 HTF = KC.HT(KC.F, KC.LGUI)
 
 # Right side Home row
-HTJ = KC.HT(KC.J, KC.LGUI)
-HTK = KC.HT(KC.K, KC.LGUI)
-HTL = KC.HT(KC.L, KC.LGUI)
-HTSCLN = KC.HT(KC.SCLN, KC.LGUI)
+HTJ = KC.HT(KC.J, KC.RGUI)
+HTK = KC.HT(KC.K, KC.RCTRL)
+HTL = KC.HT(KC.L, KC.RSHIFT)
+HTSCLN = KC.HT(KC.SCLN, KC.RALT)
 
 split = Split(
     split_flip = False,  # If both halves are the same, but flipped, set this True
