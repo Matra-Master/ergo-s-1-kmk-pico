@@ -1,0 +1,610 @@
+{
+    "id": "01JGHWPG8NW92ZKWDVW6WYRDA0",
+    "name": "ERGOSL",
+    "manufacturer": "",
+    "description": "",
+    "tags": [],
+    "controller": "pi-pico",
+    "keyboardType": "splitSerial",
+    "wiringMethod": "matrix",
+    "diodeDirection": "COL2ROW",
+    "rows": 6,
+    "cols": 8,
+    "pins": 0,
+    "rowPins": [
+        "15",
+        "14",
+        "13",
+        "12",
+        "11",
+        "10"
+    ],
+    "colPins": [
+        "9",
+        "8",
+        "7",
+        "6",
+        "5",
+        "4",
+        "3",
+        "2"
+    ],
+    "directPins": [],
+    "encoders": [],
+    "layouts": [],
+    "keys": [
+        {
+            "x": 0,
+            "y": 0,
+            "idx": 0
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "idx": 1
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "idx": 2
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "idx": 3
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "idx": 4
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "idx": 5
+        },
+        {
+            "x": 11.5,
+            "y": 0,
+            "idx": 6
+        },
+        {
+            "x": 12.5,
+            "y": 0,
+            "idx": 7
+        },
+        {
+            "x": 13.5,
+            "y": 0,
+            "idx": 8
+        },
+        {
+            "x": 14.5,
+            "y": 0,
+            "idx": 9
+        },
+        {
+            "x": 15.5,
+            "y": 0,
+            "idx": 10
+        },
+        {
+            "x": 16.5,
+            "y": 0,
+            "idx": 11
+        },
+        {
+            "x": -0.25,
+            "y": 1,
+            "w": 1.25,
+            "idx": 12
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "idx": 13
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "idx": 14
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "idx": 15
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "idx": 16
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "idx": 17
+        },
+        {
+            "x": 11.5,
+            "y": 1,
+            "idx": 18
+        },
+        {
+            "x": 12.5,
+            "y": 1,
+            "idx": 19
+        },
+        {
+            "x": 13.5,
+            "y": 1,
+            "idx": 20
+        },
+        {
+            "x": 14.5,
+            "y": 1,
+            "idx": 21
+        },
+        {
+            "x": 15.5,
+            "y": 1,
+            "idx": 22
+        },
+        {
+            "x": 16.5,
+            "y": 1,
+            "w": 1.25,
+            "idx": 23
+        },
+        {
+            "x": -0.25,
+            "y": 2,
+            "w": 1.25,
+            "idx": 24
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "idx": 25
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "idx": 26
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "idx": 27
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "idx": 28
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "idx": 29
+        },
+        {
+            "x": 11.5,
+            "y": 2,
+            "idx": 30
+        },
+        {
+            "x": 12.5,
+            "y": 2,
+            "idx": 31
+        },
+        {
+            "x": 13.5,
+            "y": 2,
+            "idx": 32
+        },
+        {
+            "x": 14.5,
+            "y": 2,
+            "idx": 33
+        },
+        {
+            "x": 15.5,
+            "y": 2,
+            "idx": 34
+        },
+        {
+            "x": 16.5,
+            "y": 2,
+            "w": 1.25,
+            "idx": 35
+        },
+        {
+            "x": -0.25,
+            "y": 3,
+            "w": 1.25,
+            "idx": 36
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "idx": 37
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "idx": 38
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "idx": 39
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "idx": 40
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "idx": 41
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "idx": 42
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "idx": 43
+        },
+        {
+            "x": 9.5,
+            "y": 4,
+            "idx": 44
+        },
+        {
+            "x": 10.5,
+            "y": 4,
+            "idx": 45
+        },
+        {
+            "x": 11.5,
+            "y": 3,
+            "idx": 46
+        },
+        {
+            "x": 12.5,
+            "y": 3,
+            "idx": 47
+        },
+        {
+            "x": 13.5,
+            "y": 3,
+            "idx": 48
+        },
+        {
+            "x": 14.5,
+            "y": 3,
+            "idx": 49
+        },
+        {
+            "x": 15.5,
+            "y": 3,
+            "idx": 50
+        },
+        {
+            "x": 16.5,
+            "y": 3,
+            "w": 1.25,
+            "idx": 51
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "idx": 52
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "idx": 53
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "idx": 54
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "idx": 55
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "h": 2,
+            "idx": 56
+        },
+        {
+            "x": 6,
+            "y": 5,
+            "h": 2,
+            "idx": 57
+        },
+        {
+            "x": 7,
+            "y": 5,
+            "idx": 58
+        },
+        {
+            "x": 9.5,
+            "y": 5,
+            "idx": 59
+        },
+        {
+            "x": 10.5,
+            "y": 5,
+            "h": 2,
+            "idx": 60
+        },
+        {
+            "x": 11.5,
+            "y": 5,
+            "h": 2,
+            "idx": 61
+        },
+        {
+            "x": 12.5,
+            "y": 4,
+            "idx": 62
+        },
+        {
+            "x": 13.5,
+            "y": 4,
+            "idx": 63
+        },
+        {
+            "x": 14.5,
+            "y": 4,
+            "idx": 64
+        },
+        {
+            "x": 15.5,
+            "y": 4,
+            "idx": 65
+        },
+        {
+            "x": 7,
+            "y": 6,
+            "idx": 66
+        },
+        {
+            "x": 9.5,
+            "y": 6,
+            "idx": 67
+        }
+    ],
+    "keymap": [
+        [
+            "KC.ESC",
+            "KC.N1",
+            "KC.N2",
+            "KC.N3",
+            "KC.N4",
+            "KC.N5",
+            "KC.N6",
+            "KC.N7",
+            "KC.N8",
+            "KC.N9",
+            "KC.N0",
+            "KC.QUOT",
+            "KC.TAB",
+            "KC.Q",
+            "KC.W",
+            "KC.E",
+            "KC.R",
+            "KC.T",
+            "KC.Y",
+            "KC.U",
+            "KC.I",
+            "KC.O",
+            "KC.P",
+            "KC.MINS",
+            "KC.LGUI",
+            "KC.A",
+            "KC.S",
+            "KC.D",
+            "KC.F",
+            "KC.G",
+            "KC.H",
+            "KC.J",
+            "KC.K",
+            "KC.L",
+            "KC.SCLN",
+            "KC.EQL",
+            "KC.LCTL",
+            "KC.Z",
+            "KC.X",
+            "KC.C",
+            "KC.V",
+            "KC.B",
+            "KC.HOME",
+            "KC.END",
+            "KC.PSCREEN",
+            "KC.CAPS",
+            "KC.N",
+            "KC.M",
+            "KC.COMM",
+            "KC.DOT",
+            "KC.SLSH",
+            "KC.DEL",
+            "KC.GRV",
+            "KC.BSLS",
+            "KC.LEFT",
+            "KC.RIGHT",
+            "KC.ENT",
+            "KC.SPC",
+            "KC.PGUP",
+            "KC.TAB",
+            "KC.SPC",
+            "KC.BSPC",
+            "KC.DOWN",
+            "KC.UP",
+            "KC.LBRC",
+            "KC.RBRC",
+            "KC.PGDOWN",
+            "KC.LALT",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS"
+        ]
+    ],
+    "encoderKeymap": [
+        []
+    ],
+    "layers": [
+        {
+            "name": ""
+        }
+    ],
+    "split": true,
+    "splitPinA": "1",
+    "splitPinB": "0",
+    "splitSide": "label",
+    "vbusPin": "VBUS_SENSE",
+    "splitUsePio": true,
+    "splitFlip": false,
+    "spitUartFlip": false,
+    "coordMap": [
+        [
+            "000",
+            "001",
+            "002",
+            "003",
+            "004",
+            "005",
+            "053",
+            "052",
+            "051",
+            "050",
+            "049",
+            "048"
+        ],
+        [
+            "008",
+            "009",
+            "010",
+            "011",
+            "012",
+            "013",
+            "061",
+            "060",
+            "059",
+            "058",
+            "057",
+            "056"
+        ],
+        [
+            "016",
+            "017",
+            "018",
+            "019",
+            "020",
+            "021",
+            "069",
+            "068",
+            "067",
+            "066",
+            "065",
+            "064"
+        ],
+        [
+            "024",
+            "025",
+            "026",
+            "027",
+            "028",
+            "029",
+            "030",
+            "031",
+            "079",
+            "078",
+            "077",
+            "076",
+            "075",
+            "074",
+            "073",
+            "072"
+        ],
+        [
+            "033",
+            "034",
+            "035",
+            "036",
+            "037",
+            "038",
+            "039",
+            "087",
+            "086",
+            "085",
+            "084",
+            "083",
+            "082",
+            "081"
+        ],
+        [
+            "047",
+            "095"
+        ]
+    ],
+    "pinPrefix": "gp",
+    "coordMapSetup": false,
+    "rgbPin": "",
+    "rgbNumLeds": 0,
+    "rgbOptions": {
+        "animationMode": 0,
+        "hueDefault": 0,
+        "satDefault": 255,
+        "valDefault": 255,
+        "animationSpeed": 1,
+        "breatheCenter": 1,
+        "knightEffectLength": 3
+    },
+    "kbFeatures": [
+        "basic",
+        "serial",
+        "oneshot",
+        "tapdance",
+        "holdtap",
+        "mousekeys",
+        "combos",
+        "macros"
+    ],
+    "flashingMode": "automatic",
+    "lastEdited": "2025-01-01 20:00"
+}
