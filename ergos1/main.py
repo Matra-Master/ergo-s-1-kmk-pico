@@ -19,12 +19,12 @@ split = Split(
 
 keyboard.keymap = [
     [
-        KC.ESC,  KC.N1,   KC.N2,    KC.N3,   KC.N4,    KC.N5,                                       KC.N6,   KC.N7,    KC.N8,    KC.N9,    KC.N0,   KC.SLSH,
-        KC.TAB,  KC.Q,    KC.W,     KC.E,    KC.R,     KC.T,                                        KC.Y,    KC.U,     KC.I,     KC.O,     KC.P,    KC.TAB,
-        KC.LGUI, KC.A,    KC.S,     KC.D,    KC.F,     KC.G,                                        KC.H,    KC.J,     KC.K,     KC.L,     KC.SCLN, KC.RGUI,
-        KC.LCTRL,KC.Z,    KC.X,     KC.C,    KC.V,     KC.B,   KC.HOME, KC.END,   KC.END,  KC.PSCR, KC.N,    KC.M,     KC.COMM,  KC.DOT,   KC.MINUS,KC.RSHIFT,
-                 KC.GRAVE,KC.BSLASH,KC.LEFT, KC.RIGHT, KC.SPC, KC.ENT,  KC.PGUP,  KC.PGUP, KC.BSPC,  KC.SPC, KC.DOWN,    KC.UP,  KC.LABK,  KC.RABK,
-                                                                        KC.PGDN,  KC.LALT
+        KC.ESC,  KC.N1, KC.N2,  KC.N3,  KC.N4,   KC.N5,                                         KC.N6,  KC.N7,   KC.N8,   KC.N9,  KC.N0,   KC.QUOT,
+        KC.TAB,  KC.Q,  KC.W,   KC.E,   KC.R,    KC.T,                                          KC.Y,   KC.U,    KC.I,    KC.O,   KC.P,    KC.MINS,
+        KC.LGUI, KC.A,  KC.S,   KC.D,   KC.F,    KC.G,                                          KC.H,   KC.J,    KC.K,    KC.L,   KC.SCLN, KC.EQL,
+        KC.LCTL, KC.Z,  KC.X,   KC.C,   KC.V,    KC.B,   KC.HOME,KC.END,    KC.PSCREEN, KC.CAPS,KC.N,    KC.M,    KC.COMM,KC.DOT,  KC.SLSH, KC.RSHIFT,
+                 KC.GRV,KC.BSLS,KC.LEFT,KC.RIGHT,KC.SPC, KC.ENT, KC.PGUP,   KC.TAB,     KC.BSPC, KC.SPC, KC.DOWN, KC.UP,  KC.LBRC, KC.RBRC,
+                                                                 KC.PGDOWN, KC.LALT
     ]
 ]
 
