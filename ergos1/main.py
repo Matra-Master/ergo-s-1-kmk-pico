@@ -2,11 +2,13 @@ from kb import KMKKeyboard
 from kmk.keys import KC
 from kmk.modules.split import Split, SplitType
 from kmk.modules.holdtap import HoldTap, HoldTapRepeat
-
+from kmk.modules.layers import Layers
 keyboard = KMKKeyboard()
 
+keyboard.modules.append(Layers())
+
 holdtap = HoldTap()
-# holdtap.tap_time = 300
+holdtap.tap_time = 150
 keyboard.modules.append(holdtap)
 # Left side Home row
 HTA = KC.HT(KC.A, KC.LALT, prefer_hold=False, tap_interrupted=False, tap_time=None, repeat=HoldTapRepeat.TAP)
@@ -19,6 +21,14 @@ HTJ = KC.HT(KC.J, KC.RGUI, prefer_hold=False, tap_interrupted=False, tap_time=No
 HTK = KC.HT(KC.K, KC.RCTRL, prefer_hold=False, tap_interrupted=False, tap_time=None, repeat=HoldTapRepeat.TAP)
 HTL = KC.HT(KC.L, KC.RSHIFT, prefer_hold=False, tap_interrupted=False, tap_time=None, repeat=HoldTapRepeat.TAP)
 HTSCLN = KC.HT(KC.SCLN, KC.RALT, prefer_hold=False, tap_interrupted=False, tap_time=None, repeat=HoldTapRepeat.TAP)
+
+#Layers
+FN1 = KC.MO(1)
+HTTAB = KC.HT(KC.TAB, FN1, prefer_hold=False, tap_interrupted=False, tap_time=None, repeat=HoldTapRepeat.TAP)
+
+# Ceaner keynames
+_____ = KC.TRNS
+XXXXX = KC.NO
 
 split = Split(
     split_flip = False,  # If both halves are the same, but flipped, set this True
@@ -35,14 +45,33 @@ keyboard.modules.append(split)
 
 
 keyboard.keymap = [
+    # Base layer
     [
         KC.ESC,  KC.N1, KC.N2,  KC.N3,  KC.N4,   KC.N5,                                          KC.N6,  KC.N7,   KC.N8,   KC.N9,  KC.N0,   KC.QUOT,
-        KC.TAB,  KC.Q,  KC.W,   KC.E,   KC.R,    KC.T,                                           KC.Y,   KC.U,    KC.I,    KC.O,   KC.P,    KC.MINS,
+        HTTAB,   KC.Q,  KC.W,   KC.E,   KC.R,    KC.T,                                           KC.Y,   KC.U,    KC.I,    KC.O,   KC.P,    KC.MINS,
         KC.LGUI, HTA,   HTS,    HTD,    HTF,     KC.G,                                           KC.H,   HTJ,     HTK,     HTL,    HTSCLN,  KC.EQL,
         KC.LCTL, KC.Z,  KC.X,   KC.C,   KC.V,    KC.B,   KC.HOME,KC.END,    KC.PSCREEN, KC.CAPS, KC.N,   KC.M,    KC.COMM,KC.DOT,  KC.SLSH, KC.RSHIFT,
                  KC.GRV,KC.BSLS,KC.LEFT,KC.RIGHT,KC.SPC, KC.ENT, KC.PGUP,   KC.TAB,     KC.BSPC, KC.SPC, KC.DOWN, KC.UP,  KC.LBRC, KC.RBRC,
                                                                  KC.PGDOWN, KC.LALT
+    ],
+    # Fn layer
+    [
+        _____, KC.F1, KC.F2, KC.F3, KC.F4, KC.F5,                             KC.F6, KC.F7, KC.F8, KC.F9, KC.F10, _____,
+        _____, _____, _____, _____, _____, _____,                             _____, _____, _____, _____, KC.F11, _____,
+        _____, _____, _____, _____, _____, _____,                             _____, _____, _____, _____, KC.F12, _____,
+        _____, _____, _____, _____, _____, _____, _____, _____, _____, _____, _____, _____, _____, _____, _____,  _____,
+               _____, _____, _____, _____, _____, _____, _____, _____, _____, _____, _____, _____, _____, _____,
+                                                         _____, _____
     ]
+    # Template layer
+    # [
+    #     _____, _____, _____, _____, _____, _____,                             _____, _____, _____, _____, _____, _____,
+    #     _____, _____, _____, _____, _____, _____,                             _____, _____, _____, _____, _____, _____,
+    #     _____, _____, _____, _____, _____, _____,                             _____, _____, _____, _____, _____, _____,
+    #     _____, _____, _____, _____, _____, _____, _____, _____, _____, _____, _____, _____, _____, _____, _____, _____,
+    #            _____, _____, _____, _____, _____, _____, _____, _____, _____, _____, _____, _____, _____, _____,
+    #                                                      _____, _____
+    # ]
 ]
 
 print("Keymap loaded with", len(keyboard.keymap[0]), "keys.")
