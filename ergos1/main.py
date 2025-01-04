@@ -1,7 +1,7 @@
 from kb import KMKKeyboard
 from kmk.keys import KC
 from kmk.modules.split import Split, SplitType
-from kmk.modules.holdtap import HoldTap
+from kmk.modules.holdtap import HoldTap, HoldTapRepeat
 
 keyboard = KMKKeyboard()
 
@@ -9,16 +9,16 @@ holdtap = HoldTap()
 # holdtap.tap_time = 300
 keyboard.modules.append(holdtap)
 # Left side Home row
-HTA = KC.HT(KC.A, KC.LALT)
-HTS = KC.HT(KC.S, KC.LSHIFT)
-HTD = KC.HT(KC.D, KC.LCTRL)
-HTF = KC.HT(KC.F, KC.LGUI)
+HTA = KC.HT(KC.A, KC.LALT, prefer_hold=False, tap_interrupted=False, tap_time=None, repeat=HoldTapRepeat.TAP)
+HTS = KC.HT(KC.S, KC.LSHIFT, prefer_hold=False, tap_interrupted=False, tap_time=None, repeat=HoldTapRepeat.TAP)
+HTD = KC.HT(KC.D, KC.LCTRL, prefer_hold=False, tap_interrupted=False, tap_time=None, repeat=HoldTapRepeat.TAP)
+HTF = KC.HT(KC.F, KC.LGUI, prefer_hold=False, tap_interrupted=False, tap_time=None, repeat=HoldTapRepeat.TAP)
 
 # Right side Home row
-HTJ = KC.HT(KC.J, KC.RGUI)
-HTK = KC.HT(KC.K, KC.RCTRL)
-HTL = KC.HT(KC.L, KC.RSHIFT)
-HTSCLN = KC.HT(KC.SCLN, KC.RALT)
+HTJ = KC.HT(KC.J, KC.RGUI, prefer_hold=False, tap_interrupted=False, tap_time=None, repeat=HoldTapRepeat.TAP)
+HTK = KC.HT(KC.K, KC.RCTRL, prefer_hold=False, tap_interrupted=False, tap_time=None, repeat=HoldTapRepeat.TAP)
+HTL = KC.HT(KC.L, KC.RSHIFT, prefer_hold=False, tap_interrupted=False, tap_time=None, repeat=HoldTapRepeat.TAP)
+HTSCLN = KC.HT(KC.SCLN, KC.RALT, prefer_hold=False, tap_interrupted=False, tap_time=None, repeat=HoldTapRepeat.TAP)
 
 split = Split(
     split_flip = False,  # If both halves are the same, but flipped, set this True
